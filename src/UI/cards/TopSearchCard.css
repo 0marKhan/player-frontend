@@ -1,0 +1,64 @@
+.logout-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logout-btn {
+  width: 4rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.add-playlist-mobile {
+  display: none;
+}
+
+.add-song-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .search-items {
+    display: none;
+  }
+  .circular-profile-image {
+    margin-left: 1.5rem;
+  }
+
+  .add-playlist-mobile {
+    display: block;
+    color: #fff;
+    padding: 0.5rem 0 0 1rem;
+  }
+
+  .add-song-mobile {
+    display: block;
+    color: #fff;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .search-items {
+    display: none;
+  }
+
+  .add-playlist-mobile {
+    display: block;
+    color: #fff;
+    padding: 0.5rem 0 0 1rem;
+  }
+
+  .add-song-mobile {
+    display: block;
+    color: #fff;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .circular-profile-image {
+    margin-left: 2rem;
+  }
+}
